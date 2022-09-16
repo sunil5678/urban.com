@@ -1,0 +1,140 @@
+.body{
+    margin:0;
+    padding:0;
+    font-family: 'Trocchi', serif;
+    background-color: red;
+
+}
+
+
+
+.clearflix::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+.header{
+    width:80%;
+    height:100%;
+    background-image:url("./banner.png");
+    background-size:cover;
+    background-position:center top;
+    margin:auto;
+
+}
+
+.header h3{
+    float:left;
+    color:#ffff;
+    font-weight:lighter;
+    margin-left:25px;
+    margin-top:40px;
+}
+
+.header a{
+    float:right;
+    color:#ffff;
+    margin-right:40px;
+    margin-top:50px;
+    text-decoration:none;
+}
+
+.header a span{
+    margin-right:10px;
+}
+
+.header h3 span{
+    color:#3498db;
+}
+
+/* start banner */
+
+.banner{
+    width:100%;
+    height:400px;
+    text-align: center;
+    clear:both;
+    color:#ffff;
+    position:relative;
+    top:30%;
+}
+.banner h1{
+    font-size:48px;
+}
+
+.banner p{
+    font-size:20px;
+}
+
+.banner button{
+    width:150px;
+    height:50px;
+    background-color:#3498db;
+    color:white;
+    border:0;
+    font-family:"scope one",serif;
+    font-weight:bold;
+    margin-top:30px;
+}
+
+/* mid-start */
+
+.mid-section{
+    max-width:1200px;
+    margin:0;
+    margin-top:30px;
+
+}
+.mid-section .left{
+    float:left;
+    width:30%;
+    text-align:center;
+}
+
+.mid-section img{
+    border-radius:50%;
+    width:80%;
+}
+
+.mid-section .right{
+    float:right;
+    width:65%;
+
+}
+.mid-section h2{
+    font-size:25px;
+}
+
+.mid-section .right p{
+    color:grey;
+    font-size:16px;
+}
+
+  .blue-button{
+    width:120px;
+    height:40px;
+    color:#ffff;
+    background-color:#3498db;
+    border:0;
+    font-family:"scope one",serif;
+    font-weight:bold;
+    margin-top:30px;
+}
+/* wrraper start */
+.middle-section img{
+    float:right;
+}
+.middle-section{
+    width:65%;
+}
+.wrapper{
+    width:100%;
+    background-color:#3498db;
+    padding:30px 0;
+    margin-top:50px;
+}
+
+.wrapper .left{
+    width:65%;
+}
